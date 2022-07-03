@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/will', function (req, res) {
-    res.send('{ "response": "" }');
+    res.send('{ "response": "Thank You Once Again!" }');
 });
 app.get('/ready', function (req, res) {
     res.send('{ "response": "Thank you for baring my demo" }');
